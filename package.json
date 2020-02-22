@@ -1,0 +1,25 @@
+{
+  "name": "subscription-service",
+  "version": "1.0.0",
+  "description": "App to test Stripe API, makes subscription payment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperMayy/subscription-service.git"
+  },
+  "author": "Olumayowa Showumi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperMayy/subscription-service/issues"
+  },
+  "homepage": "https://github.com/SuperMayy/subscription-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "stripe": "^8.17.0"
+  }
+}
